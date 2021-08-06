@@ -1,129 +1,137 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" text="text/css" href="./style.css">
-    <title>Horiseon.com</title><!--Title changed from 'website' to 'Horiseon.com'-->
-</head>
+    <link rel="stylesheet" text="text/css" href="./style.css" />
+    <title>Horiseon.com</title>
+    <!--Title changed from 'website' to 'Horiseon.com'-->
+  </head>
 
-<body>
-    
+  <body>
     <!--HEADER-->
-    <header class="header"><!--'Header' tags added in place of 'div' tags-->
+    <header class="header">
+      <!--'Header' tags added in place of 'div' tags-->
 
-        <h1>Hori<span class="seo">seo</span>n</h1>
+      <h1>Hori<span class="seo">seo</span>n</h1>
 
-            <!--Navigation Links-->
-            <div>
-                <ul>
-                     <li>
-                     <a href="#search-engine-optimization">Search Engine Optimization</a>
-                    </li>
+      <!--Navigation Links-->
+      <!--div tags changed to nav-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#search-engine-optimization" alt="Brainstorm Notepad on table">Search Engine Optimization</a>
+          </li>
 
-                    <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                    </li>
+          <li>
+            <a href="#online-reputation-management" alt="Notepad with charts on screen"
+              >Online Reputation Management</a
+            >
+          </li>
 
-                    <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                    </li>
-                </ul>
-            </div>
-</header>
+          <li>
+            <a href="#social-media-marketing" alt="Group dialogue with images and emojis on table">Social Media Marketing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!--Main Content-->
-    <div class="hero"></div> 
+    <div class="hero"></div>
     <!--changed parent and children'div' tags to 'section' tags-->
 
-        <section class="content">
+    <section class="content">
+      <!--Search Engine Optimization-->
 
-            <!--Search Engine Optimization-->
-            
-            <section id="search-engine-optimization" class="services">
-                <!--parentheses added to search engine optimization-->
+      <section id="search-engine-optimization" class="services">
+        <!--parentheses added to search engine optimization-->
 
-                <img src="./images/search-engine-optimization.jpg" class="float-left" />
+        <img src="./images/search-engine-optimization.jpg" class="float-left" />
 
-                    <h2>Search Engine Optimization</h2>
+        <h2>Search Engine Optimization</h2>
 
-                        <p>
-                            The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-                        </p>
-            </section>
+        <p>
+          The dominance of mobile internet use means that users are searching
+          for the right business as they travel, shop, or sit on their couch at
+          home. Search Engine Optimization (SEO) allows you to increase your
+          visibility and find the right customers for your business.
+        </p>
+      </section>
 
-            <!--Online Reputation Management-->
-            <section id="online-reputation-management" class="services">
+      <!--Online Reputation Management-->
+      <section id="online-reputation-management" class="services">
+        <img
+          src="./images/online-reputation-management.jpg"
+          class="float-right"
+        />
 
-                <img src="./images/online-reputation-management.jpg" class="float-right" />
+        <h2>Online Reputation Management</h2>
 
-                    <h2>Online Reputation Management</h2>
+        <p>
+          The web is full of opinions, and some of these can be negative. Social
+          media allows anyone with an internet connection to say whatever they
+          want about your business. Online Reputation Management gives you the
+          control over what potential customers see when they search for your
+          business.
+        </p>
+      </section>
 
-                        <p>
-                            The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-                        </p>
-            </section>
+      <!--Social Media Marketing-->
+      <section id="social-media-marketing" class="services">
+        <img src="./images/social-media-marketing.jpg" class="float-left" />
 
-            <!--Social Media Marketing-->
-            <section id="social-media-marketing" class="services">
+        <h2>Social Media Marketing</h2>
 
-                <img src="./images/social-media-marketing.jpg" class="float-left" />
+        <p>
+          Social media continues to have a sizable influence on buying habits.
+          Social media marketing helps you determine which platforms are suited
+          to your brand, using analytics to find the right markets and increase
+          your lead generation.
+        </p>
+      </section>
+    </section>
 
-                    <h2>Social Media Marketing</h2>
+    <!--SIDE BAR-->
 
-                         <p>
-                             Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-                        </p>
-            </section>
-        </section>
-
-    <!--SIDE BAR--> 
-
-    <!--'div' tags changed to 'section'-->
+    <!--'div' tags changed to 'aside/section'-->
     <aside class="benefits">
+      <section class="benefit">
+        <h3>Lead Generation</h3>
 
-        <section class="benefit-lead">
+        <img src="./images/lead-generation.png" />
 
-                <h3>Lead Generation</h3>
+        <p>
+          Inbound strategies for lead generation require less work for your
+          business, bringing customers directly to your website.
+        </p>
+      </section>
 
-                    <img src="./images/lead-generation.png" />
+      <section class="benefit">
+        <h3>Brand Awareness</h3>
 
-                        <p>
-                             Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-                        </p>
-        </section>
+        <img src="./images/brand-awareness.png" />
 
-        <section class="benefit-brand">
+        <p>
+          Users find your business through paid and organic searches, increasing
+          the search ranking and visibility for your business.
+        </p>
+      </section>
 
-            <h3>Brand Awareness</h3>
+      <section class="benefit">
+        <h3>Cost Management</h3>
 
-                 <img src="./images/brand-awareness.png" />
+        <img src="./images/cost-management.png" />
 
-                    <p>
-                        Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-                    </p>
-        </section>
-
-        <section class="benefit-cost">
-
-            <h3>Cost Management</h3>
-
-                <img src="./images/cost-management.png" />
-
-                     <p>
-                            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-                    </p>
-        </section>
-
+        <p>
+          As the search ranking for your business increases, your advertising
+          costs decrease, and you no longer need to advertise your page.
+        </p>
+      </section>
     </aside>
 
     <!--Footer-->
     <!--Div tags have been changed to footer tags-->
-    <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
+    <footer>
+      <h2>Made with ❤️️ by Horiseon</h2>
+      <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
-</body>
-
+  </body>
 </html>
