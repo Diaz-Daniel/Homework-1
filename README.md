@@ -22,9 +22,11 @@ This project is an introduction to industry standards for web development. The m
 
 ## Website Display
 
+![Horiseon.com](./images/Horiseon.com.png)
+
 ## Link to Website
 
-
+- [Horiseon.com](https://diaz-daniel.github.io/Horiseon_Code_Refactor/)
 
 
 
